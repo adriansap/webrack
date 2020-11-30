@@ -1,6 +1,9 @@
 {
   "name": "stripe-sample",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.14.1"
+  },
   "dependencies": {
     "@stripe/react-stripe-js": "^1.0.0",
     "@stripe/stripe-js": "^1.0.0",
@@ -14,7 +17,6 @@
   },
   "homepage": "http://localhost:3000/checkout",
   "proxy": "http://localhost:4242",
-   "node" : ">=0.12",
   "scripts": {
     "start-client": "react-scripts start",
     "start-server": "node server.js",
