@@ -14,6 +14,7 @@
   },
   "homepage": "http://localhost:3000/checkout",
   "proxy": "http://localhost:4242",
+   "node" : ">=0.12",
   "scripts": {
     "start-client": "react-scripts start",
     "start-server": "node server.js",
